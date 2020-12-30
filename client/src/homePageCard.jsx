@@ -15,7 +15,7 @@ const useStyles = makeStyles({
     margin:"4.5px"
   },
   media: {
-    height: 140,
+    height:'50vh',
     backgroundImage:`url(${Hotel})`
   },
 });
