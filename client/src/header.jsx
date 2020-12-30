@@ -26,7 +26,7 @@ export default function Header() {
 
   return (
     <Grid container className={classes.root}>
-      <AppBar position="static">
+      <AppBar position="static" style={{backgroundColor:"#000",width:"100%"}}>
         <Toolbar>
           <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
           < BusinessIcon/>

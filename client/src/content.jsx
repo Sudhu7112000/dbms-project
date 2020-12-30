@@ -7,7 +7,7 @@ const useStyles = makeStyles({
     image: {
         backgroundImage: `url(${showcase})`,
         minHeight: '84.5vh',
-        minWidth: '100vw',
+        minWidth: '98.75vw',
         backgroundPosition: 'center center',
         backgroundSize: '100vw',
       },
@@ -20,7 +20,7 @@ export default function Content(){
     return(
         <div className={classes.image }>
         
-       <p style={{textAlign:"center", fontSize:"20px",margin:"0px"}}>Enjoy your stay</p> 
+       <p style={{textAlign:"center", fontSize:"20px",margin:"0px",color:"#fff",fontFamily:"sans-serif",fontSize:"4rem",paddingTop:"30vh"}}><span style={{color:"#E59866 "}}>Enjoy</span> your stay</p> 
 
          </div>
 
