@@ -6,7 +6,7 @@ const useStyles = makeStyles({
 
     image: {
         backgroundImage: `url(${showcase})`,
-        minHeight: '84.2vh',
+        minHeight: '84.5vh',
         minWidth: '100vw',
         backgroundPosition: 'center center',
         backgroundSize: '100vw',
