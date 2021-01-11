@@ -12,10 +12,12 @@ const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
     opacity:"0.8",
-    zIndex:"2"
+    zIndex:"2",
+  
+
   },
   menuButton: {
-    marginRight: theme.spacing(2),
+    marginRight: theme.spacing(1),
   },
   title: {
     flexGrow: 1,
@@ -35,7 +37,7 @@ export default function Header() {
 
   return (
     <Grid container className={classes.root}>
-      <AppBar position="fixed" style={{backgroundColor:"#000",width:"100%"}}>
+      <AppBar position="fixed" style={{backgroundColor:"#000",maxwidth:"100vw"}}>
         <Toolbar>
           <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
          <AccountBalanceIcon></AccountBalanceIcon>

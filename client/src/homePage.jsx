@@ -65,15 +65,7 @@ function HomePage() {
             <Grid item  >
               <HomePageCard/>
             </Grid>
-            <Grid item  >
-              <HomePageCard/>
-            </Grid>
-            <Grid item  >
-              <HomePageCard/>
-            </Grid>
-            <Grid item  >
-              <HomePageCard/>
-            </Grid>
+           
           </Grid>
           <Grid item container>
             <Grid item>

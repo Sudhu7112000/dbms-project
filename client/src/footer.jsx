@@ -23,7 +23,7 @@ const useStyles = makeStyles(() => ({
 export default function Footer() {
     const classes= useStyles();
     return (
-       <Grid container style={{backgroundColor:"#222",width:"100vw",color:"whitesmoke"}}>
+       <Grid container style={{backgroundColor:"#222",maxWidth:"100vw",color:"whitesmoke"}}>
            <Grid item container style={{marginLeft:"33.5vw"}}>
                 <FacebookIcon className={classes.icon}></FacebookIcon>
                 <InstagramIcon className={classes.icon}></InstagramIcon>
